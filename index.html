@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CoachMax Fitness | Transformation 90 jours</title>
+
+<style>
+body { margin:0; font-family:Arial; text-align:center; background:#111; color:white; }
+
+header {
+    padding:80px 20px;
+    background:#000;
+}
+
+h1 { font-size:36px; }
+
+.btn {
+    display:inline-block;
+    padding:15px 30px;
+    margin-top:20px;
+    background:#e53935;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.section {
+    padding:60px 20px;
+}
+
+.card {
+    background:#1c1c1c;
+    padding:30px;
+    margin:20px auto;
+    max-width:400px;
+    border-radius:10px;
+}
+
+footer {
+    padding:20px;
+    background:#000;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Transformez votre corps en 90 jours</h1>
+    <p>Coaching personnalisé – Résultats garantis.</p>
+
+    <a class="btn" href="https://wa.me/33612345678?text=Bonjour%20je%20veux%20rejoindre%20le%20programme%2090%20jours" target="_blank">
+        Rejoindre maintenant
+    </a>
+</header>
+
+<div class="section">
+    <div class="card">
+        <h2>Programme Transformation 90 jours</h2>
+        <p>Plan nutrition + entraînement + suivi personnalisé</p>
+        <strong>120€</strong><br><br>
+
+        <!-- Stripe ou PayPal -->
+        <a class="btn" href="https://stripe.com" target="_blank">
+            Paiement sécurisé
+        </a>
+    </div>
+</div>
+
+<footer>
+    © <span id="year"></span> CoachMax Fitness
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
